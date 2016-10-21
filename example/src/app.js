@@ -1,6 +1,1 @@
-(function(w, d) {
-	'use strict';
-    
-    var Skip = require('./libs/storm-skip');
-	
-})(window, document, undefined);
+import Skip  from './libs/storm-skip';
