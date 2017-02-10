@@ -1,6 +1,6 @@
 /**
  * @name storm-skip: Fixes skip to content links focus problem
- * @version 0.1.0: Fri, 21 Oct 2016 10:56:16 GMT
+ * @version 0.1.0: Fri, 10 Feb 2017 17:36:07 GMT
  * @author stormid
  * @license MIT
  */

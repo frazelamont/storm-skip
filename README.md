@@ -4,11 +4,13 @@
 [![codecov.io](http://codecov.io/github/mjbp/storm-skip/coverage.svg?branch=master)](http://codecov.io/github/mjbp/storm-skip?branch=master)
 [![npm version](https://badge.fury.io/js/storm-skip.svg)](https://badge.fury.io/js/storm-skip)
 
-Fixes the skip to content links focus problem
+Fixes the skip to content links focus problem, as suggested by https://www.nczonline.net/blog/2013/01/15/fixing-skip-to-content-links/
 
-Credit: https://www.nczonline.net/blog/2013/01/15/fixing-skip-to-content-links/
+##Example
+[https://mjbp.github.io/storm-skip(https://mjbp.github.io/storm-skip)
 
 ##Usage
+JS
 ```
 npm i -S storm-skip 
 ```
@@ -16,10 +18,6 @@ either using es6 import
 ```
 import Skip from 'storm-skip';
 
-```
-or es5 commonjs (legacy)
-```
-require('storm-skip');
 ```
 
 ##Tests
