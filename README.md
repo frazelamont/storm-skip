@@ -7,7 +7,7 @@
 Fixes the skip to content links focus problem, as suggested by https://www.nczonline.net/blog/2013/01/15/fixing-skip-to-content-links/
 
 ##Example
-[https://mjbp.github.io/storm-skip(https://mjbp.github.io/storm-skip)
+[https://mjbp.github.io/storm-skip](https://mjbp.github.io/storm-skip)
 
 ##Usage
 JS
