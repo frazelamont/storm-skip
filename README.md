@@ -1,4 +1,4 @@
-#Storm Skip
+# Storm Skip
 
 [![Build Status](https://travis-ci.org/mjbp/storm-skip.svg?branch=master)](https://travis-ci.org/mjbp/storm-skip)
 [![codecov.io](http://codecov.io/github/mjbp/storm-skip/coverage.svg?branch=master)](http://codecov.io/github/mjbp/storm-skip?branch=master)
@@ -6,10 +6,10 @@
 
 Fixes the skip to content links focus problem, as suggested by https://www.nczonline.net/blog/2013/01/15/fixing-skip-to-content-links/
 
-##Example
+## Example
 [https://mjbp.github.io/storm-skip](https://mjbp.github.io/storm-skip)
 
-##Usage
+## Usage
 JS
 ```
 npm i -S storm-skip 
@@ -20,18 +20,18 @@ import Skip from 'storm-skip';
 
 ```
 
-##Tests
+## Tests
 ```
 npm run test
 ```  
 
-##Browser support
+## Browser support
 This is module has both es6 and es5 distributions. The es6 version should be used in a workflow that transpiles.
 
 ie9+ is supported out the box, ie8+ will work with addEventListener polyfill.
 
-##Dependencies
+## Dependencies
 None
 
-##License
+## License
 MIT
