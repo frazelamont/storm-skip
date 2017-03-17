@@ -1,6 +1,6 @@
 {
   "name": "storm-skip",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Fixes skip to content links focus problem",
   "author": "stormid",
   "license": "MIT",
