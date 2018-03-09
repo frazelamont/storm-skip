@@ -1,6 +1,6 @@
 /**
  * @name storm-skip: Fixes skip to content links focus problem
- * @version 0.1.0: Fri, 10 Mar 2017 18:03:20 GMT
+ * @version 1.0.3: Fri, 09 Mar 2018 20:15:01 GMT
  * @author stormid
  * @license MIT
  */
@@ -21,19 +21,17 @@
    'use strict';
 
 {
-	(function () {
-		var focusable = ['a', 'select', 'input', 'button', 'textarea'];
+	var focusable = ['a', 'select', 'input', 'button', 'textarea'];
 
-		window.addEventListener('hashchange', function () {
-			var element = document.getElementById(window.location.hash.substring(1));
+	window.addEventListener('hashchange', function () {
+		var element = document.getElementById(window.location.hash.substring(1));
 
-			if (element) {
-				if (!(focusable.indexOf(element.tagName.toLowerCase()) > -1)) {
-					element.tabIndex = -1;
-				}
-				element.focus();
+		if (element) {
+			if (!(focusable.indexOf(element.tagName.toLowerCase()) > -1)) {
+				element.tabIndex = -1;
 			}
-		});
-	})();
+			element.focus();
+		}
+	});
 };
 }));
